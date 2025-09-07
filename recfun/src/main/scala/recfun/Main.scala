@@ -18,11 +18,11 @@ object Main {
 	  println("===============================")
     println()
 	  
-	  print("(if (zero? x) max (/ 1 x)) is balanced ? " + balance("(if (zero? x) max (/ 1 x)) is balanced ? ".toList).toString())
+	  println("(if (zero? x) max (/ 1 x)) is balanced ? " + balance("(if (zero? x) max (/ 1 x)) is balanced ? ".toList).toString())
 	  
 	  println()
-	  println()
 	  println("===============================")
+	  test.
 	  println()
 	  
 	  val coins = Stream.from(0,97).take(50).toList.map(_ %101).filter(_!=0)
