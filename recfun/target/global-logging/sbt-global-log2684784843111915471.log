@@ -1,0 +1,175 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\vince\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\vince\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.11.5 (JetBrains s.r.o. Java 21.0.8)
+[debug]       Load.loadUnit: plugins took 100.2145ms
+[debug]       Load.loadUnit: defsScala took 0.2278ms
+[debug] [Loading] Scanning directory C:\Users\vince\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\vince\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 15.5036 ms
+[debug]           Load.resolveProject(global-plugins) took 38.5073ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\vince\.sbt\1.0\plugins, plugins: List(<none>))) took 75.0173ms
+[debug] [Loading] Done in C:\Users\vince\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 100.3969ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.1364ms
+[debug]     Load.loadUnit(file:/C:/Users/vince/.sbt/1.0/plugins/, ...) took 208.7689ms
+[debug]   Load.apply: load took 388.2512ms
+[debug]   Load.apply: resolveProjects took 5.3491ms
+[debug]   Load.apply: finalTransforms took 52.8098ms
+[debug]   Load.apply: config.delegates took 5.6759ms
+[debug]   Load.apply: Def.make(settings)... took 358.6615ms
+[debug]   Load.apply: structureIndex took 87.6579ms
+[debug]   Load.apply: mkStreams took 1.6954ms
+[info] loading global plugins from C:\Users\vince\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2067.3193ms
+[debug]                             Load.loadUnit: plugins took 28.1738ms
+[debug]                             Load.loadUnit: defsScala took 0.005ms
+[debug] [Loading] Scanning directory C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project\project\project
+[debug]                               Load.loadUnit: mkEval took 10.4083ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.4627 ms
+[info] loading settings for project recfun-build-build-build-build from metals.sbt...
+[debug]                                 Load.resolveProject(recfun-build-build-build-build) took 2.074ms
+[debug]                               Load.loadTransitive: finalizeProject(Project(id recfun-build-build-build-build, base: C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project\project\project, plugins: List(<none>))) took 5.1128ms
+[debug] [Loading] Done in C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project\project\project, returning: (recfun-build-build-build-build)
+[debug]                             Load.loadUnit: loadedProjectsRaw took 135.9969ms
+[debug]                             Load.loadUnit: cleanEvalClasses took 5.3574ms
+[debug]                           Load.loadUnit(file:/C:/Users/vince/Desktop/POSTECH/cs434/Functional%20Programming%20Principles%20in%20Scala/assignments/recfun/project/project/project/project/, ...) took 170.4979ms
+[debug]                         Load.apply: load took 172.4137ms
+[debug]                         Load.apply: resolveProjects took 0.1346ms
+[debug]                         Load.apply: finalTransforms took 15.4716ms
+[debug]                         Load.apply: config.delegates took 1.5358ms
+[debug]                         Load.apply: Def.make(settings)... took 107.5292ms
+[debug]                         Load.apply: structureIndex took 27.2763ms
+[debug]                         Load.apply: mkStreams took 0.0038ms
+[info] loading project definition from C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project\project\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]                       Load.loadUnit: plugins took 557.2748ms
+[debug]                       Load.loadUnit: defsScala took 0.004ms
+[debug] [Loading] Scanning directory C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project\project
+[debug]                         Load.loadUnit: mkEval took 0.3116ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.2558 ms
+[info] loading settings for project recfun-build-build-build from metals.sbt...
+[debug]                           Load.resolveProject(recfun-build-build-build) took 20.8414ms
+[debug]                         Load.loadTransitive: finalizeProject(Project(id recfun-build-build-build, base: C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project\project, plugins: List(<none>))) took 23.7089ms
+[debug] [Loading] Done in C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project\project, returning: (recfun-build-build-build)
+[debug]                       Load.loadUnit: loadedProjectsRaw took 50.4228ms
+[debug]                       Load.loadUnit: cleanEvalClasses took 6.0215ms
+[debug]                     Load.loadUnit(file:/C:/Users/vince/Desktop/POSTECH/cs434/Functional%20Programming%20Principles%20in%20Scala/assignments/recfun/project/project/project/, ...) took 615.0493ms
+[debug]                   Load.apply: load took 617.4791ms
+[debug]                   Load.apply: resolveProjects took 0.1123ms
+[debug]                   Load.apply: finalTransforms took 12.5212ms
+[debug]                   Load.apply: config.delegates took 0.3448ms
+[debug]                   Load.apply: Def.make(settings)... took 56.0091ms
+[debug]                   Load.apply: structureIndex took 22.6016ms
+[debug]                   Load.apply: mkStreams took 0.0027ms
+[info] loading project definition from C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project\project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop\recfun-build-build-build.json
+[success] Total time: 2 s, completed 5 sept. 2025, 12:07:42
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]                 Load.loadUnit: plugins took 2925.2762ms
+[debug]                 Load.loadUnit: defsScala took 0.0024ms
+[debug] [Loading] Scanning directory C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project
+[debug]                   Load.loadUnit: mkEval took 0.234ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.2411 ms
+[info] loading settings for project recfun-build-build from buildPlugins.sbt, metals.sbt...
+[debug]                     Load.resolveProject(recfun-build-build) took 24.7597ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id recfun-build-build, base: C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project, plugins: List(<none>))) took 28.5554ms
+[debug] [Loading] Done in C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project, returning: (recfun-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 58.7461ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 4.1961ms
+[debug]               Load.loadUnit(file:/C:/Users/vince/Desktop/POSTECH/cs434/Functional%20Programming%20Principles%20in%20Scala/assignments/recfun/project/project/, ...) took 2989.3195ms
+[debug]             Load.apply: load took 2995.245ms
+[debug]             Load.apply: resolveProjects took 0.092ms
+[debug]             Load.apply: finalTransforms took 12.4974ms
+[debug]             Load.apply: config.delegates took 0.407ms
+[debug]             Load.apply: Def.make(settings)... took 69.2178ms
+[debug]             Load.apply: structureIndex took 16.3746ms
+[debug]             Load.apply: mkStreams took 0.0022ms
+[info] loading project definition from C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project\project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Generated .bloop\recfun-build-build.json
+[success] Total time: 1 s, completed 5 sept. 2025, 12:07:43
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 4255.4643ms
+[debug]           Load.loadUnit: defsScala took 0.003ms
+[debug] [Loading] Scanning directory C:\Users\vince\Desktop\POSTECH\cs434\Functional Programming Principles in Scala\assignments\recfun\project
+[debug]             Load.loadUnit: mkEval took 0.2956ms
+[error] Type error in expression
+[debug] > Exec(loadFailed, None, None)
+[warn] Project loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)
